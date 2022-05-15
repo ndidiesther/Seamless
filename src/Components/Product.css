@@ -1,0 +1,334 @@
+.product {
+  padding: 15px 60px;
+  margin-top: 100px;
+  font-family: "Jost", sans-serif;
+}
+.product_banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.product_banner > div {
+  padding: 20px;
+}
+/* .clearfix {
+    overflow: hidden;
+  } */
+.product_banner > div:first-child,
+.p_div {
+  padding-left: 10px;
+  height: auto;
+}
+
+.product_para {
+  position: relative;
+}
+.product_para > span:first-child {
+  position: absolute;
+  border-radius: 50%;
+  padding: 7px 12px;
+  background-color: #ece3e1;
+  opacity: 0.3;
+  margin-right: 10px;
+  top: 5px;
+}
+.product_para > span:nth-child(2) {
+  padding-left: 52px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.sProduct {
+  width: 504px;
+  padding-top: 25px;
+}
+.sProduct > img {
+  padding-right: 40px;
+}
+.sProduct > img:last-child {
+  padding-right: 0px;
+}
+.p_description {
+  padding-top: 20px;
+}
+.p_description > p:first-child {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-block-end: 0px;
+}
+.p_description > p:nth-child(2) {
+  font-size: 20px;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.5em;
+}
+.p_description > p:nth-child(3) {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-block-start: 0.2em;
+}
+.c_star > i {
+  color: #ffcf53;
+  padding-right: 5px;
+}
+.p_star > i {
+  color: #e5e5e5;
+  padding-right: 5px;
+}
+.div_btn {
+  padding-top: 15px;
+}
+.div_btn > button:first-child {
+  background-color: #bc9a43;
+  padding: 20px 38px;
+  outline: none;
+  height: 70px;
+  color: #ffffff;
+  border: 1px solid #bc9a43;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+}
+.div_btn > button:nth-child(2) {
+  background-color: #fcfbf7;
+  padding: 18px 25px;
+  height: 70px;
+  outline: none;
+  color: #000000;
+  border: 1px solid #bc9a43;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+}
+.div_btn > button:first-child {
+  margin-right: 20px;
+}
+.div_btn > button:nth-child(2) > img {
+  width: 17px;
+  height: auto;
+  margin-right: 7px;
+}
+.vector_div {
+  padding-top: 30px;
+}
+.vector_div > span:first-child {
+  position: relative;
+  padding-right: 30px;
+}
+.vector_div > span:first-child > img,
+.vector_div > span:nth-child(2) > img {
+  position: absolute;
+  top: -3px;
+}
+.vector_div > span:first-child > span,
+.vector_div > span:nth-child(2) > span {
+  padding-left: 40px;
+}
+.vector_div > span:nth-child(2) {
+  position: relative;
+}
+.fabric_desc {
+  padding-top: 30px;
+}
+.dbr {
+  border-bottom: 0.6px solid #000000;
+  opacity: 0.2;
+}
+.view_product {
+  background-color: #ffffff;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/* .view_product > div:nth-child(2) {
+   
+} */
+.view_product > div:nth-child(2) > div > img {
+  width: 380px;
+  height: auto;
+}
+.tag {
+  width: 380px;
+  height: auto;
+}
+.tag > p:nth-child(2) {
+  float: right;
+  color: #bc9a43;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tag > p:nth-child(1) {
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+.product_con {
+  padding-right: 3%;
+}
+a {
+  text-decoration: none;
+}
+.product_con > p:first-child {
+  float: left;
+  font-weight: bold;
+  font-size: 30px;
+}
+.product_con > p:nth-child(2) {
+  margin-block-start: 3em;
+  float: right;
+  color: #bc9a43;
+  cursor: pointer;
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .sub_pro > div,
+  .tag {
+    width: 250px;
+    height: auto;
+  }
+  .sub_pro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .view_product > div:nth-child(2) > div > img {
+    width: 250px;
+    height: auto;
+  }
+  .tag > p:nth-child(2),
+  .tag > p:nth-child(1) {
+    float: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .product_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .product_banner > div:first-child > img {
+    width: 400px;
+    height: auto;
+  }
+  .div_btn > button:first-child {
+    padding: 10px 28px;
+    height: 50px;
+  }
+  .div_btn > button:nth-child(2) {
+    padding: 10px 25px;
+    height: 50px;
+  }
+  .sProduct {
+    width: 370px;
+  }
+  .sProduct > img {
+    width: 100px;
+    padding-right: 30px;
+  }
+  .sProduct > img:last-child {
+    padding-right: 0px;
+    width: 70px;
+  }
+  .vector_div > span {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .product_para > span:nth-child(2) {
+    font-size: 1.8rem;
+  }
+  .p_description > p:first-child {
+    font-size: 1.7rem;
+  }
+  .product {
+    margin-top: 30px;
+  }
+  .p_div {
+    padding-top: 120px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .product_banner {
+    flex-direction: column;
+  }
+  .product_banner > div {
+    padding: 0;
+  }
+  .p_div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  .product {
+    margin-top: 130px;
+  }
+  .sub_pro {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product_con > p:first-child {
+      font-size: 20px;
+  }
+  .product_con > p:nth-child(2) {
+      margin-block-start: 1em;
+  }
+  .sub_pro > div {
+      padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product {
+    margin-top: 30px;
+  }
+  .tag > p:nth-child(2),
+  .tag > p:nth-child(1) {
+    float: none;
+  }
+  .sub_pro > div,
+    .tag,  .view_product > div:nth-child(2) > div > img {
+      width: 200px;
+      height: auto;
+    }
+    .product_banner > div:first-child > img {
+        width: 350px;
+        height: auto;
+    }
+    .sProduct {
+        display: none;
+    }
+
+.product_para > span:nth-child(2), .p_description > p:first-child  {
+    font-size: 1.7rem;
+}
+
+.product_para > span:first-child  {
+    top:0px;
+}
+
+}
+@media only screen and (max-width: 500px) {
+    .div_btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_btn > button {
+        margin-bottom: 20px;
+    }
+    .vector_div > span {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .product_con > p:first-child , .product_con > p:nth-child(2){
+        float: none;
+    }
+   
+}
+
